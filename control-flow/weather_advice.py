@@ -1,6 +1,6 @@
 
-weather = input("What's the weather like today? (cold / rainy / sunny): \n").lower()
-print("Today's weather is: ", str(weather))
+#promt the user for the current weather
+weather = input("What's the weather like today? (sunny/rainy/cold): ").strip().lower()
 
 if weather == "cold":
     print("Make sure to wear a warm coat and a scarf. ")
